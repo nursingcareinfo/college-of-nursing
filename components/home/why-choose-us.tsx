@@ -4,7 +4,6 @@ import {
   GraduationCap,
   FlaskConical,
   Airplay,
-  Home,
   Gamepad2,
   MonitorPlay,
 } from "lucide-react";
@@ -29,12 +28,6 @@ const FEATURES = [
     title: "Air-Conditioned Classrooms",
     description:
       "Comfortable, modern classrooms designed for focused and productive learning.",
-  },
-  {
-    icon: Home,
-    title: "Boys Hostel",
-    description:
-      "On-campus hostel accommodation providing a safe and supportive living environment.",
   },
   {
     icon: Gamepad2,

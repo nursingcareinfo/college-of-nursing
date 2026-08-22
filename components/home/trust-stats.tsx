@@ -21,7 +21,7 @@ const STATS = [
     icon: Building2,
     label: "Learning",
     value: "Modern Facilities",
-    description: "State-of-the-art campus",
+    description: "Modern classrooms and skills labs",
   },
   {
     icon: Users,
