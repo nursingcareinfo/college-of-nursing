@@ -1,81 +1,35 @@
 "use client";
 
+import {
+  BookOpen,
+  Globe,
+  HeartPulse,
+  Users,
+} from "lucide-react";
 import { SectionReveal, StaggerGroup, StaggerItem } from "@/components/shared/motion";
 
-const CAMPUS_IMAGES = [
+const HIGHLIGHTS = [
   {
-    label: "Classroom",
-    gradient: "from-primary/15 via-primary/5 to-teal/10",
-    span: "sm:col-span-2 sm:row-span-2",
-    aspect: "aspect-[4/3] sm:aspect-square",
+    icon: Users,
+    title: "Experienced Faculty",
+    text: "Quality education delivered by qualified nursing educators and clinicians.",
   },
   {
-    label: "Skills Lab",
-    gradient: "from-teal/15 via-teal-light/30 to-teal/5",
-    span: "",
-    aspect: "aspect-[4/3]",
+    icon: HeartPulse,
+    title: "Modern Labs & Clinical Training",
+    text: "Hands-on practice in modern labs with clinical postings at leading hospitals.",
   },
   {
-    label: "Campus",
-    gradient: "from-gold/10 via-gold/5 to-teal/10",
-    span: "",
-    aspect: "aspect-[4/3]",
+    icon: Globe,
+    title: "Careers Local & Abroad",
+    text: "Professional growth with globally recognized nursing qualifications.",
   },
   {
-    label: "Library",
-    gradient: "from-navy/10 via-navy/5 to-teal-light/20",
-    span: "",
-    aspect: "aspect-[4/3]",
-  },
-  {
-    label: "Student Life",
-    gradient: "from-teal/10 via-primary/5 to-gold/10",
-    span: "",
-    aspect: "aspect-[4/3]",
+    icon: BookOpen,
+    title: "Practical Education",
+    text: "A learning environment built around activities, practice, and competence.",
   },
 ] as const;
-
-function CampusImagePlaceholder({
-  label,
-  gradient,
-}: {
-  label: string;
-  gradient: string;
-}) {
-  return (
-    <div
-      className={`flex h-full items-center justify-center rounded-xl bg-gradient-to-br ${gradient} border border-border/50`}
-    >
-      <svg
-        viewBox="0 0 200 150"
-        className="h-full w-full"
-        xmlns="http://www.w3.org/2000/svg"
-        aria-hidden="true"
-      >
-        <text
-          x="100"
-          y="80"
-          textAnchor="middle"
-          fill="currentColor"
-          fillOpacity="0.15"
-          fontSize="14"
-          fontFamily="system-ui"
-        >
-          {label}
-        </text>
-        <rect
-          x="70"
-          y="90"
-          width="60"
-          height="40"
-          rx="8"
-          fill="currentColor"
-          fillOpacity="0.05"
-        />
-      </svg>
-    </div>
-  );
-}
 
 export function CampusLife() {
   return (
@@ -91,27 +45,35 @@ export function CampusLife() {
           </p>
         </div>
 
-        <StaggerGroup className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-4">
-          {/* First image spans 2 cols on sm+ */}
-          <StaggerItem className="col-span-2 sm:col-span-2">
-            <div className={`${CAMPUS_IMAGES[0].aspect} w-full`}>
-              <CampusImagePlaceholder
-                label={CAMPUS_IMAGES[0].label}
-                gradient={CAMPUS_IMAGES[0].gradient}
+        <div className="grid items-center gap-8 lg:grid-cols-2 lg:gap-12">
+          <StaggerItem>
+            <div className="aspect-[4/3] w-full overflow-hidden rounded-2xl border border-border/50 shadow-md">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/campus-05.jpg`}
+                alt="At Universal Health Institute of Nursing & Allied Sciences"
+                className="h-full w-full object-cover"
               />
             </div>
           </StaggerItem>
-          {CAMPUS_IMAGES.slice(1).map((img) => (
-            <StaggerItem key={img.label}>
-              <div className={`${img.aspect} w-full`}>
-                <CampusImagePlaceholder
-                  label={img.label}
-                  gradient={img.gradient}
-                />
-              </div>
-            </StaggerItem>
-          ))}
-        </StaggerGroup>
+          <StaggerGroup className="grid gap-4 sm:grid-cols-2">
+            {HIGHLIGHTS.map((item) => (
+              <StaggerItem key={item.title}>
+                <div className="h-full rounded-xl border border-border/60 bg-white p-5 shadow-sm">
+                  <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-teal-light text-teal">
+                    <item.icon className="h-5 w-5" aria-hidden="true" />
+                  </div>
+                  <h3 className="text-sm font-semibold text-navy">
+                    {item.title}
+                  </h3>
+                  <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">
+                    {item.text}
+                  </p>
+                </div>
+              </StaggerItem>
+            ))}
+          </StaggerGroup>
+        </div>
       </div>
     </SectionReveal>
   );

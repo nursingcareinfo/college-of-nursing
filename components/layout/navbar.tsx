@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Menu, Download, GraduationCap } from "lucide-react";
+import { Menu, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   Sheet,
@@ -33,7 +33,11 @@ export function Navbar() {
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6 lg:px-8">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 shrink-0">
-          <GraduationCap className="h-8 w-8 text-primary" aria-hidden="true" />
+          <img
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/logo.png`}
+            alt=""
+            className="h-9 w-auto object-contain"
+          />
           <div className="hidden leading-tight sm:block">
             <span className="block text-sm font-bold tracking-tight text-primary">
               UHINAS
@@ -88,7 +92,11 @@ export function Navbar() {
           <SheetContent side="left" className="w-72">
             <SheetHeader>
               <SheetTitle className="flex items-center gap-2">
-                <GraduationCap className="h-6 w-6 text-primary" aria-hidden="true" />
+                <img
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/logo.png`}
+                  alt=""
+                  className="h-7 w-auto object-contain"
+                />
                 UHINAS
               </SheetTitle>
             </SheetHeader>

@@ -115,7 +115,9 @@ export function Footer() {
             </div>
             <p className="text-sm leading-relaxed text-white/70">
               Empowering the next generation of healthcare professionals with
-              world-class nursing education in Karachi.
+              world-class nursing education in Karachi. Registered by PNMC,
+              affiliated with LUMHS, with clinical training at Dr. Ruth K. M.
+              Pfau Civil Hospital Karachi.
             </p>
           </div>
 
@@ -147,25 +149,35 @@ export function Footer() {
               <li className="flex items-start gap-2 text-sm text-white/60">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-teal" />
                 <span>
-                  Institute Address, Karachi, Sindh, Pakistan
+                  Plot 185, Sector 4F, Mominabad, Orangi Town,
+                  Karachi, Sindh, Pakistan
                 </span>
               </li>
               <li>
                 <a
-                  href="tel:+92XXXXXXXXXXX"
+                  href="tel:+922136740220"
                   className="flex items-center gap-2 text-sm text-white/60 transition-colors hover:text-gold"
                 >
                   <Phone className="h-4 w-4 shrink-0 text-teal" />
-                  +92 XXX XXXXXXX
+                  021-3674 0220
                 </a>
               </li>
               <li>
                 <a
-                  href="mailto:info@uhinas.edu.pk"
+                  href="tel:+923453027788"
                   className="flex items-center gap-2 text-sm text-white/60 transition-colors hover:text-gold"
                 >
-                  <Mail className="h-4 w-4 shrink-0 text-teal" />
-                  info@uhinas.edu.pk
+                  <Phone className="h-4 w-4 shrink-0 text-teal" />
+                  0345-302 7788
+                </a>
+              </li>
+              <li>
+                <a
+              href="mailto:universalhealth.ion2015@gmail.com"
+                className="flex items-center gap-2 text-sm text-white/60 transition-colors hover:text-gold"
+              >
+                <Mail className="h-4 w-4 shrink-0 text-teal" />
+                universalhealth.ion2015@gmail.com
                 </a>
               </li>
             </ul>
@@ -181,7 +193,7 @@ export function Footer() {
               Google Maps Embed
             </div>
             <a
-              href="https://wa.me/92XXXXXXXXXXX"
+              href="https://wa.me/923453027788"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-lg bg-teal px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-teal/80"

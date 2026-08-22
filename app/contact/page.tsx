@@ -4,7 +4,6 @@ import {
   Mail,
   MapPin,
   MessageCircle,
-  Clock,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
@@ -29,24 +28,25 @@ const CONTACT_CARDS = [
   {
     icon: MapPin,
     title: "Address",
-    lines: ["Institute Address, Karachi, Sindh, Pakistan"],
+    lines: ["Plot 185, Sector 4F, Mominabad", "Orangi Town, Karachi"],
   },
   {
     icon: Phone,
     title: "Phone",
-    lines: ["+92 XXX XXXXXXX"],
-    href: "tel:+92XXXXXXXXXXX",
+    lines: ["021-36740220", "021-36740221"],
+    href: "tel:+922136740220",
+  },
+  {
+    icon: MessageCircle,
+    title: "WhatsApp / Mobile",
+    lines: ["0345-3027788", "0313-4216788"],
+    href: "https://wa.me/923453027788",
   },
   {
     icon: Mail,
     title: "Email",
-    lines: ["info@uhinas.edu.pk"],
-    href: "mailto:info@uhinas.edu.pk",
-  },
-  {
-    icon: Clock,
-    title: "Office Hours",
-    lines: ["Mon\u2013Sat, 9am\u20135pm"],
+    lines: ["universalhealth.ion2015@gmail.com"],
+    href: "mailto:universalhealth.ion2015@gmail.com",
   },
 ];
 
@@ -196,7 +196,7 @@ export default function ContactPage() {
               className="bg-teal text-white hover:bg-teal/80"
             >
               <a
-                href="https://wa.me/92XXXXXXXXXXX"
+                href="https://wa.me/923453027788"
                 target="_blank"
                 rel="noopener noreferrer"
               >

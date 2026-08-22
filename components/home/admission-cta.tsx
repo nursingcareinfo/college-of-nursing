@@ -34,7 +34,7 @@ export function AdmissionCTA() {
             className="border-white/20 text-white hover:bg-white/10 hover:text-white"
           >
             <a
-              href="https://wa.me/92XXXXXXXXXXX"
+              href="https://wa.me/923453027788"
               target="_blank"
               rel="noopener noreferrer"
             >

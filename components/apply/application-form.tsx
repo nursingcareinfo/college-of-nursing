@@ -13,7 +13,7 @@ import {
   validateApplication,
 } from "@/components/apply/application-form-data";
 
-const WHATSAPP_NUMBER = "92XXXXXXXXXXX";
+const WHATSAPP_NUMBER = "923453027788";
 
 const EMPTY: ApplicationValues = {
   fullName: "", fatherName: "", cnic: "", dob: "", gender: "",

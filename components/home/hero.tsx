@@ -60,37 +60,16 @@ function FloatingBadge() {
   );
 }
 
-function HeroPlaceholderImage() {
+function HeroPhoto() {
   return (
-    <div className="relative h-full w-full overflow-hidden rounded-2xl">
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-teal/20 to-teal-light/40" />
-      <svg
-        viewBox="0 0 400 400"
-        className="h-full w-full"
-        xmlns="http://www.w3.org/2000/svg"
-        aria-hidden="true"
-      >
-        <defs>
-          <linearGradient id="heroGrad" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0%" stopColor="var(--uhinas-navy)" stopOpacity="0.1" />
-            <stop offset="100%" stopColor="var(--uhinas-teal)" stopOpacity="0.2" />
-          </linearGradient>
-        </defs>
-        <rect width="400" height="400" fill="url(#heroGrad)" />
-        <circle cx="200" cy="160" r="60" fill="var(--uhinas-teal)" fillOpacity="0.15" />
-        <rect x="140" y="230" width="120" height="80" rx="12" fill="var(--uhinas-teal)" fillOpacity="0.1" />
-        <text
-          x="200"
-          y="340"
-          textAnchor="middle"
-          fill="var(--uhinas-navy)"
-          fillOpacity="0.2"
-          fontSize="14"
-          fontFamily="system-ui"
-        >
-          Campus Photo
-        </text>
-      </svg>
+    <div className="relative h-full w-full overflow-hidden rounded-2xl border border-border/50 shadow-lg">
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/images/campus-03.jpg`}
+        alt="Universal Health Institute of Nursing & Allied Sciences"
+        className="h-full w-full object-cover"
+      />
+      <div className="absolute inset-0 bg-gradient-to-t from-navy/25 via-transparent to-transparent" />
     </div>
   );
 }
@@ -111,14 +90,14 @@ export function Hero() {
               BS Nursing — 4-Year Degree Program
             </Badge>
             <h1 className="text-4xl font-bold leading-tight tracking-tight text-navy sm:text-5xl lg:text-6xl">
-              Shape Your Future
+              Secure Your Future.
               <br />
-              in Healthcare
+              Become a Nurse!
             </h1>
             <p className="max-w-lg text-lg leading-relaxed text-muted-foreground">
               Begin your journey toward a rewarding career in nursing with
-              hands-on clinical training, expert faculty, and modern facilities
-              at UHINAS Karachi.
+              hands-on clinical training at Dr. Ruth K. M. Pfau Civil Hospital
+              Karachi, experienced faculty, and modern facilities at UHINAS.
             </p>
             <div className="flex flex-wrap items-center gap-3">
               <Button
@@ -148,7 +127,7 @@ export function Hero() {
             className="relative"
           >
             <div className="aspect-square max-h-[480px] w-full">
-              <HeroPlaceholderImage />
+              <HeroPhoto />
             </div>
             <FloatingBadge />
           </motion.div>
