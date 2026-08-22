@@ -38,11 +38,11 @@ export function Navbar() {
             alt=""
             className="h-9 w-auto object-contain"
           />
-          <div className="hidden leading-tight sm:block">
-            <span className="block text-sm font-bold tracking-tight text-primary">
+          <div className="max-w-[168px] leading-tight sm:max-w-[250px]">
+            <span className="block text-xs font-bold tracking-tight text-primary sm:text-sm">
               UHINAS
             </span>
-            <span className="block max-w-[240px] text-[0.6rem] leading-snug text-muted-foreground">
+            <span className="block text-[0.58rem] font-medium leading-snug text-muted-foreground sm:text-[0.65rem]">
               Universal Health Institute of Nursing &amp; Allied Sciences,
               Karachi
             </span>
