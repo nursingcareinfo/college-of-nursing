@@ -1,2 +1,2 @@
-:HL["/college-of-nursing/_next/static/chunks/0ss_8ovj6pmi1.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":4160,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"E_ohPEC2Bt5AE-tYEdxOF"}
+:HL["/college-of-nursing/_next/static/chunks/3wrz9-v9ym7kc.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":4160,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"-BjNpDYyP8Se2tZSNjxdC"}
