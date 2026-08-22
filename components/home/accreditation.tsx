@@ -18,6 +18,18 @@ const AFFILIATIONS = [
     badge: "Approved by",
     name: "Pakistan Nursing and Midwifery Council Islamabad",
   },
+  {
+    logoSrc: `${BASE_PATH}/images/civil-hospital.png`,
+    alt: "Dr Ruth K.M. Pfau Civil Hospital Karachi logo",
+    badge: "Clinical Training at",
+    name: "Dr. Ruth K.M. Pfau Civil Hospital Karachi",
+  },
+  {
+    logoSrc: `${BASE_PATH}/images/sindh-health.png`,
+    alt: "Health Department Government of Sindh logo",
+    badge: "Recognised by",
+    name: "Health Department, Government of Sindh",
+  },
 ] as const;
 
 export function Accreditation() {

@@ -42,7 +42,8 @@ export function Navbar() {
             <span className="block text-sm font-bold tracking-tight text-primary">
               UHINAS
             </span>
-            <span className="block text-[0.6rem] text-muted-foreground">
+            <span className="block max-w-[240px] text-[0.6rem] leading-snug text-muted-foreground">
+              Universal Health Institute of Nursing &amp; Allied Sciences,
               Karachi
             </span>
           </div>
@@ -97,7 +98,12 @@ export function Navbar() {
                   alt=""
                   className="h-7 w-auto object-contain"
                 />
-                UHINAS
+                <span>
+                  UHINAS
+                  <span className="block text-[0.6rem] font-normal leading-snug text-muted-foreground">
+                    Universal Health Institute of Nursing &amp; Allied Sciences
+                  </span>
+                </span>
               </SheetTitle>
             </SheetHeader>
             <div className="flex flex-col gap-1 px-4">

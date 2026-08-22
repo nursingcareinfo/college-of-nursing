@@ -3,7 +3,8 @@ import { Accreditation } from "@/components/home/accreditation";
 import { TrustStats } from "@/components/home/trust-stats";
 import { WhyChooseUs } from "@/components/home/why-choose-us";
 import { FeaturedProgram } from "@/components/home/featured-program";
-import { CampusLife } from "@/components/home/campus-life";
+import { ChairmanMessage } from "@/components/home/chairman-message";
+import { VicePrincipalMessage } from "@/components/home/vice-principal-message";
 import { AdmissionCTA } from "@/components/home/admission-cta";
 
 export default function Home() {
@@ -14,7 +15,8 @@ export default function Home() {
       <TrustStats />
       <WhyChooseUs />
       <FeaturedProgram />
-      <CampusLife />
+      <ChairmanMessage />
+      <VicePrincipalMessage />
       <AdmissionCTA />
     </main>
   );

@@ -132,7 +132,6 @@ Defined via shadcn `--radius: 0.625rem` (10px):
 | TrustStats | `components/home/trust-stats.tsx` | Client component (stagger) |
 | WhyChooseUs | `components/home/why-choose-us.tsx` | Client component (stagger) |
 | FeaturedProgram | `components/home/featured-program.tsx` | Client component (dialog + section reveal) |
-| CampusLife | `components/home/campus-life.tsx` | Client component (stagger grid) |
 | AdmissionCTA | `components/home/admission-cta.tsx` | Client component (section reveal) |
 | AnimationProvider | `components/shared/motion.tsx` | MotionConfig + SectionReveal + StaggerGroup |
 
