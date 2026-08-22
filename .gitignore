@@ -39,3 +39,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local QA artifacts (screenshots from browser verification)
+/uhinas-desktop-1280.png
+/uhinas-final-desktop.png
+.playwright-mcp/
+
+# AI planning workspace (not part of the public site)
+/.omo/
+/.planning/
+
