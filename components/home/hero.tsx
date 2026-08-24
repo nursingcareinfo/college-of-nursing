@@ -32,7 +32,7 @@ export function Hero() {
               BS Nursing — 4-Year Degree Program
             </Badge>
             <Badge variant="secondary" className="bg-teal-light text-teal">
-              Admissions Open — 2nd Batch
+              Admissions Open — 3rd Batch
             </Badge>
           </div>
           <h1 className="text-4xl font-bold leading-tight tracking-tight text-navy sm:text-5xl lg:text-6xl">

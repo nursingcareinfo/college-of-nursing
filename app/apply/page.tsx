@@ -3,9 +3,9 @@ import { ApplicationForm } from "@/components/apply/application-form";
 import { SectionReveal } from "@/components/shared/motion";
 
 export const metadata: Metadata = {
-  title: "Apply Online — BS Nursing 2nd Batch",
+  title: "Apply Online — BS Nursing 3rd Batch",
   description:
-    "Submit your application for the BS Nursing 4-Year Degree Program (2nd Batch) at UHINAS Karachi. Complete the online form and apply via WhatsApp.",
+    "Submit your application for the BS Nursing 4-Year Degree Program (3rd Batch) at UHINAS Karachi. Complete the online form and apply via WhatsApp.",
 };
 
 export default function ApplyPage() {

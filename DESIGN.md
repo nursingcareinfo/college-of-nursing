@@ -5,7 +5,7 @@
 ## 1. Overview & Brand
 
 **Institute:** Universal Health Institute of Nursing & Allied Sciences (UHINAS), Karachi
-**Program:** BS Nursing 4-Year Degree Program, 2nd Batch
+**Program:** BS Nursing 4-Year Degree Program, 3rd Batch
 **Tone:** Premium healthcare education — spacious, rounded, generous whitespace, prominent CTAs
 **Mode:** Light only — no dark mode
 

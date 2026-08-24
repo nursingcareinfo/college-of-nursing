@@ -29,7 +29,7 @@ export function buildApplicationMessage(v: ApplicationValues): string {
     .join(", ");
 
   return [
-    "BS Nursing Application — 2nd Batch",
+    "BS Nursing Application — 3rd Batch",
     "",
     `Name: ${v.fullName}`,
     `Guardian: ${v.fatherName}`,

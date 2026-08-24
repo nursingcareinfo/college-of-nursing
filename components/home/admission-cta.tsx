@@ -14,7 +14,7 @@ export function AdmissionCTA() {
         </h2>
         <p className="mx-auto mt-4 max-w-xl text-lg text-white/70">
           Take the first step toward a meaningful and rewarding career in
-          healthcare. Applications for the 2nd Batch are now open.
+          healthcare. Applications for the 3rd Batch are now open.
         </p>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
           <Button

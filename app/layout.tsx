@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     template: "%s | UHINAS",
   },
   description:
-    "Admissions open for BS Nursing 4-Year Degree Program (2nd Batch) at UHINAS Karachi. Join Pakistan's premier nursing institute with modern facilities, expert faculty, and clinical training.",
+    "Admissions open for BS Nursing 4-Year Degree Program (3rd Batch) at UHINAS Karachi. Join Pakistan's premier nursing institute with modern facilities, expert faculty, and clinical training.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

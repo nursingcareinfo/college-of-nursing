@@ -20,7 +20,7 @@ import {
 export const metadata: Metadata = {
   title: "Admissions",
   description:
-    "Admission eligibility, process, required documents, and application deadlines for the BS Nursing 4-Year Degree Program (2nd Batch) at UHINAS Karachi.",
+    "Admission eligibility, process, required documents, and application deadlines for the BS Nursing 4-Year Degree Program (3rd Batch) at UHINAS Karachi.",
 };
 
 const ADMISSION_STEPS = [
@@ -49,7 +49,7 @@ export default function AdmissionsPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl space-y-4 text-center">
             <Badge variant="secondary" className="bg-gold/10 text-gold">
-              BS Nursing — 2nd Batch
+              BS Nursing — 3rd Batch
             </Badge>
             <h1 className="text-4xl font-bold tracking-tight text-navy sm:text-5xl">
               Admissions

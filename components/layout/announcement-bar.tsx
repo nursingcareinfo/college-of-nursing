@@ -9,7 +9,7 @@ export function AnnouncementBar() {
         <div className="flex items-center gap-2 min-w-0">
           <Megaphone className="h-4 w-4 shrink-0 text-gold" aria-hidden="true" />
           <p className="truncate font-medium">
-            Admissions Open — BS Nursing 4-Year Degree Program | Apply for 2nd Batch
+            Admissions Open — BS Nursing 4-Year Degree Program | Apply for 3rd Batch
           </p>
         </div>
         <Button
