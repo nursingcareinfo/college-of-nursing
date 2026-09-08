@@ -10,7 +10,7 @@ set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 WT="/tmp/uhinas-gh-pages"
-BASE_PATH="${NEXT_PUBLIC_BASE_PATH:-/college-of-nursing}"
+BASE_PATH="${NEXT_PUBLIC_BASE_PATH:-}"
 
 cd "$ROOT"
 
